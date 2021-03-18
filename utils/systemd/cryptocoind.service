@@ -6,14 +6,14 @@ After=network.target
 User=crypto
 Group=crypto
 WorkingDirectory=~
-RuntimeDirectory=crypto
+RuntimeDirectory=cryptocoin
 
 # Clearnet config
 #
 Type=forking
-PIDFile=/run/crypto/cryptocoind.pid
+PIDFile=/run/cryptocoin/cryptocoind.pid
 ExecStart=/usr/bin/cryptocoind --config-file /etc/cryptocoind.conf \
-    --detach --pidfile /run/crypto/cryptocoind.pid
+    --detach --pidfile /run/cryptocoin/cryptocoind.pid
 
 # Tor config
 #
