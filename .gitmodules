@@ -1,7 +1,3 @@
-[submodule "external/unbound"]
-	path = external/unbound
-	url = https://github.com/monero-project/unbound
-	branch = monero
 [submodule "external/miniupnp"]
 	path = external/miniupnp
 	url = https://github.com/monero-project/miniupnp
@@ -15,3 +11,6 @@
 [submodule "external/randomx"]
 	path = external/randomx
 	url = https://github.com/tevador/RandomX
+[submodule "external/unbound"]
+	path = external/unbound
+	url = https://github.com/monero-project/unbound.git
